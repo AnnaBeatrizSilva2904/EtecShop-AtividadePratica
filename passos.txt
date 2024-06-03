@@ -1,0 +1,18 @@
+configuração da conta local do GIT:
+git config --global user.name AnnaBeatrizSilva2904
+git config --global user.email annabeatryz2504@gmail.com
+
+---------------------------//---------------------------
+
+Criação do projeto:
+- dotnet new mvc -o EtecShop
+
+Entrar na pasta do projeto:
+- cd EtecShop
+
+Instalação de pacotes:
+- dotnet add package Microsoft.EntityFrameworkCore --version 8.0.6
+- dotnet add package Microsoft.EntityFrameworkCore.Design --version 8.0.6
+- dotnet add package Microsoft.EntityFrameworkCore.Tools --version 8.0.6
+- dotnet add package Microsoft.EntityFrameworkCore.InMemory --version 8.0.6
+- dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 8.0.6
